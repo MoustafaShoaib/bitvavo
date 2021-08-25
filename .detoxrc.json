@@ -1,0 +1,26 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "__tests__/e2e/config.json",
+  "skipLegacyWorkersInjection": true,
+  "apps": {
+    "ios": {
+      "type": "ios.app",
+      "binaryPath": "/Users/moustafa/Library/Developer/Xcode/DerivedData/dashboardapp-aihwpuzhimkbwnfonjivbybagulj/Build/Products/Debug-iphonesimulator/dashboardapp.app",
+      "build": "react-native run-ios"
+    }
+  },
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 11"
+      }
+    }
+  },
+  "configurations": {
+    "ios": {
+      "device": "simulator",
+      "app": "ios"
+    }
+  }
+}
